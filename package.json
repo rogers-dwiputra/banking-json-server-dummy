@@ -1,0 +1,20 @@
+{
+    "name": "banking-interface-json-server",
+    "version": "1.0.0",
+    "description": "A mock REST API for a banking interface based on Figma design",
+    "main": "index.js",
+    "scripts": {
+        "start": "json-server --watch db.json --port 3000"
+    },
+    "keywords": [
+        "json-server",
+        "api",
+        "mock",
+        "banking"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "json-server": "^0.17.4"
+    }
+}
